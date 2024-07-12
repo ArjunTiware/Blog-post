@@ -1,0 +1,37 @@
+form {
+    border: .5px solid gainsboro;
+}
+
+form button,
+form input {
+  background: none;
+  border: none !important;
+}
+
+form input {
+    width: 88% !important;
+}
+
+@media only screen and (max-width: 720px) {
+  main {
+    width: 550px;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  main {
+    width: 450px !important;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  main {
+    width: 350px !important;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  main {
+    width: 300px !important;
+  }
+}
